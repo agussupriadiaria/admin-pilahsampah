@@ -1,1 +1,1 @@
-SELECT * FROM savedatabaru LIMIT 10;
+SELECT * FROM savedatabaru

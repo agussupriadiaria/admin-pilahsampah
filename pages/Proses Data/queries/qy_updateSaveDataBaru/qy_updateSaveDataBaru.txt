@@ -1,4 +1,4 @@
-USE u682594628_cobadata;
+USE u682594628_bukutamu;
 INSERT INTO savedatabaru (barcode, time, date, jumlahbottle, saldopcs, saldo, transactioncode)
 SELECT sd.barcode, sd.time, sd.date, sd.jumlahbottle, sd.saldopcs, sd.saldo, sd.transactioncode
 FROM savedata AS sd
