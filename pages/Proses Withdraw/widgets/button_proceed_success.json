@@ -1,0 +1,43 @@
+{
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 85,
+  "boxShadow": "none",
+  "buttonColor": "#ef4444",
+  "buttonVariant": "PRIMARY",
+  "disabledWhenInvalid": false,
+  "dynamicBindingPathList": [],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onClick"
+    }
+  ],
+  "isDefaultClickDisabled": true,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "vun64fmg61",
+  "leftColumn": 16,
+  "minWidth": 120,
+  "mobileBottomRow": 85,
+  "mobileLeftColumn": 16,
+  "mobileRightColumn": 32,
+  "mobileTopRow": 81,
+  "needsErrorInfo": false,
+  "onClick": "{{qy_proceedSuccess.run().then(() => {\n  navigateTo('https://app.appsmith.com/app/admin-pilahsampah/proses-withdraw-671f756ef8df644d71cb638f', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Failed, check data !', 'error');\n});}}",
+  "parentColumnSpace": 17.9375,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placement": "CENTER",
+  "recaptchaType": "V3",
+  "renderMode": "CANVAS",
+  "resetFormOnClick": false,
+  "responsiveBehavior": "hug",
+  "rightColumn": 32,
+  "text": "Proceed success !",
+  "topRow": 81,
+  "type": "BUTTON_WIDGET",
+  "version": 1,
+  "widgetId": "vpk9ayrdol",
+  "widgetName": "button_proceed_success"
+}

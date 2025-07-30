@@ -1,0 +1,18 @@
+INSERT INTO transactions_wd (username, transactioncode, item, amount, status, inputdate, transactiondate, accname, accnumber)
+SELECT 
+    transactions.username, 
+    transactions.transactioncode, 
+    transactions.item, 
+    transactions.amount, 
+    transactions.status, 
+    transactions.inputdate, 
+    transactions.transactiondate, 
+    users.accname, 
+    users.accnumber
+FROM 
+    transactions
+JOIN 
+    users ON transactions.username = users.username
+WHERE 
+    transactions.item = 'Withdrawal' 
+    AND transactions.status = 'Verify';

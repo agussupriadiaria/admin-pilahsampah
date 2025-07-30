@@ -1,0 +1,12 @@
+UPDATE users
+JOIN (
+    SELECT username, 
+           SUM(CASE 
+               WHEN status = 'Success' AND item REGEXP '^[0-9]+$' THEN amount
+               WHEN status = 'Success' AND item = 'Withdrawal' THEN -amount
+               ELSE 0 
+               END) AS total_amount
+    FROM transactions
+    GROUP BY username
+) transaction_totals ON users.username = transaction_totals.username
+SET users.balance = transaction_totals.total_amount;

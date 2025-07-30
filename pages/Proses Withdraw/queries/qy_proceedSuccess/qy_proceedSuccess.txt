@@ -1,0 +1,2 @@
+UPDATE transactions SET status = 'Success', transactiondate = CURDATE() WHERE item = 'Withdrawal' AND status = 'Verify';
+UPDATE transactions_wd SET status = 'Success', transactiondate = CURDATE() WHERE item = 'Withdrawal' AND status = 'Verify';
