@@ -1,1 +1,1 @@
-SELECT * FROM savedata LIMIT 10;
+SELECT * FROM savedata
