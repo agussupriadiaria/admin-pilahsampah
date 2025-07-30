@@ -205,7 +205,7 @@
       "label": "date",
       "notation": "standard",
       "originalId": "date",
-      "outputFormat": "YYYY-MM-DD",
+      "outputFormat": "DD/MM/YYYY",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,

@@ -271,7 +271,7 @@
       "label": "inputdate",
       "notation": "standard",
       "originalId": "inputdate",
-      "outputFormat": "YYYY-MM-DD",
+      "outputFormat": "DD/MM/YYYY",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
