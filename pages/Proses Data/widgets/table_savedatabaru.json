@@ -42,7 +42,9 @@
     "transactioncode"
   ],
   "columnUpdatedAt": 1730279348419,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "no": 60
+  },
   "compactMode": "SHORT",
   "customIsLoading": false,
   "customIsLoadingValue": "",

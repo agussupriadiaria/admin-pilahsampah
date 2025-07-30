@@ -42,7 +42,9 @@
     "transactiondate"
   ],
   "columnUpdatedAt": 1730277464555,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "no": 60
+  },
   "compactMode": "SHORT",
   "customIsLoading": false,
   "customIsLoadingValue": "",

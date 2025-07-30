@@ -44,7 +44,9 @@
     "accnumber"
   ],
   "columnUpdatedAt": 1730279213662,
-  "columnWidthMap": {},
+  "columnWidthMap": {
+    "no": 60
+  },
   "compactMode": "SHORT",
   "customIsLoading": false,
   "customIsLoadingValue": "",
