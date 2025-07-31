@@ -24,7 +24,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 48,
   "needsErrorInfo": false,
-  "onClick": "{{qy_updateSaldo.run().then(() => {\n  navigateTo('User Data', {}, 'NEW_WINDOW');\n}).catch(() => {\n  showAlert('Failed, check data !', 'error');\n});}}",
+  "onClick": "{{qy_updateSaldo.run().then(() => {\n  showAlert('Success, please reload !', 'success');\n}).catch(() => {\n  showAlert('Failed, check data !', 'error');\n});}}",
   "parentColumnSpace": 17.9375,
   "parentId": "0",
   "parentRowSpace": 10,
