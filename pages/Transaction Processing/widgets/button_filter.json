@@ -25,7 +25,7 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 193,
   "needsErrorInfo": false,
-  "onClick": "{{qy_updateSaveDataBaru.run().then(() => {\n  navigateTo('https://app.appsmith.com/app/admin-pilahsampah/proses-data-671f756ef8df644d71cb638e', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Failed, check data !', 'error');\n});}}",
+  "onClick": "{{qy_updateSaveDataBaru.run().then(() => {\n  navigateTo('Transaction Processing', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Failed, check data !', 'error');\n});}}",
   "originalBottomRow": 119,
   "originalTopRow": 115,
   "parentColumnSpace": 14.8125,

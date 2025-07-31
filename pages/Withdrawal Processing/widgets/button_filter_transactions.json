@@ -25,7 +25,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 81,
   "needsErrorInfo": false,
-  "onClick": "{{qy_filterTransactions.run().then(() => {\n  navigateTo('https://app.appsmith.com/app/admin-pilahsampah/proses-withdraw-671f756ef8df644d71cb638f', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Failde, check data !', 'error');\n});}}",
+  "onClick": "{{qy_filterTransactions.run().then(() => {\n  navigateTo('Withdrawal Processing', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Failde, check data !', 'error');\n});}}",
   "originalBottomRow": 85,
   "originalTopRow": 81,
   "parentColumnSpace": 17.9375,
