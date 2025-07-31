@@ -24,7 +24,7 @@
   "mobileRightColumn": 32,
   "mobileTopRow": 81,
   "needsErrorInfo": false,
-  "onClick": "{{qy_proceedSuccess.run().then(() => {\n  navigateTo('Withdrawal Processing', {}, 'SAME_WINDOW');\n}).catch(() => {\n  showAlert('Failed, check data !', 'error');\n});}}",
+  "onClick": "{{qy_proceedSuccess.run().then(() => {\n  showAlert('Success. Please reload page!', 'success');\n}).catch(() => {\n  showAlert('Failed. Check data!', 'error');\n});}}",
   "originalBottomRow": 85,
   "originalTopRow": 81,
   "parentColumnSpace": 17.9375,
