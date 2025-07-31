@@ -29,7 +29,7 @@
     ],
     "name": "Select_transactions1",
     "pageId": "Withdrawal Processing",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }

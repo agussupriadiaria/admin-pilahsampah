@@ -29,7 +29,7 @@
     ],
     "name": "Select_savedatabaru1",
     "pageId": "Transaction Processing",
-    "runBehaviour": "MANUAL",
+    "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
 }
