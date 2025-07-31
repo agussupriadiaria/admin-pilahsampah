@@ -1,7 +1,4 @@
-SELECT
-  *
-FROM
-  savedata
+SELECT * FROM savedata
 WHERE
   transactioncode LIKE '%{{table_savedata.searchText}}%'
 ORDER BY
