@@ -41,8 +41,9 @@
     "inputdate",
     "transactiondate"
   ],
-  "columnUpdatedAt": 1730277464555,
+  "columnUpdatedAt": 1753975094328,
   "columnWidthMap": {
+    "customColumn1": 60,
     "no": 60
   },
   "compactMode": "SHORT",
@@ -245,7 +246,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "number",
-      "computedValue": "{{(() => { const tableData = table_transactions.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"no\"])) :  currentRow[\"no\"] })()}}",
+      "computedValue": "{{(() => { const tableData = table_transactions.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentIndex+1)) : currentIndex+1 })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,

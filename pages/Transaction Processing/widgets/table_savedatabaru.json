@@ -33,7 +33,6 @@
   },
   "columnOrder": [
     "no",
-    "customColumn1",
     "barcode",
     "time",
     "date",
@@ -42,8 +41,9 @@
     "saldo",
     "transactioncode"
   ],
-  "columnUpdatedAt": 1753972067045,
+  "columnUpdatedAt": 1753975164334,
   "columnWidthMap": {
+    "customColumn1": 60,
     "no": 60
   },
   "compactMode": "SHORT",
@@ -94,9 +94,6 @@
     },
     {
       "key": "primaryColumns.transactioncode.computedValue"
-    },
-    {
-      "key": "primaryColumns.customColumn1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -183,39 +180,6 @@
       "verticalAlignment": "CENTER",
       "width": 150
     },
-    "customColumn1": {
-      "alias": "num",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "buttonStyle": "rgb(3, 179, 101)",
-      "columnType": "text",
-      "computedValue": "{{(() => { const tableData = table_savedatabaru.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentIndex+1)) : currentIndex+1 })()}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "customColumn1",
-      "index": 8,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": true,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "num",
-      "labelColor": "#FFFFFF",
-      "notation": "standard",
-      "originalId": "customColumn1",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "date": {
       "alias": "date",
       "allowCellWrapping": false,
@@ -292,7 +256,7 @@
       "allowSameOptionsInNewRow": true,
       "cellBackground": "",
       "columnType": "number",
-      "computedValue": "{{(() => { const tableData = table_savedatabaru.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"no\"])) :  currentRow[\"no\"] })()}}",
+      "computedValue": "{{(() => { const tableData = table_savedatabaru.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentIndex+1)) : currentIndex+1 })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
@@ -308,7 +272,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": false,
+      "isVisible": true,
       "label": "no",
       "notation": "standard",
       "originalId": "no",

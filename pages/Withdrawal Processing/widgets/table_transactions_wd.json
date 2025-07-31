@@ -43,7 +43,7 @@
     "accname",
     "accnumber"
   ],
-  "columnUpdatedAt": 1730279213662,
+  "columnUpdatedAt": 1753975115682,
   "columnWidthMap": {
     "no": 60
   },
@@ -315,7 +315,7 @@
       "allowCellWrapping": false,
       "allowSameOptionsInNewRow": true,
       "columnType": "number",
-      "computedValue": "{{(() => { const tableData = table_transactions_wd.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"no\"])) :  currentRow[\"no\"] })()}}",
+      "computedValue": "{{(() => { const tableData = table_transactions_wd.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentIndex+1)) : currentIndex+1 })()}}",
       "currencyCode": "USD",
       "decimals": 0,
       "enableFilter": true,
