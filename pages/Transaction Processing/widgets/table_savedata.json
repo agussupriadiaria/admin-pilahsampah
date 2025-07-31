@@ -33,6 +33,7 @@
   },
   "columnOrder": [
     "no",
+    "customColumn1",
     "barcode",
     "time",
     "date",
@@ -41,8 +42,9 @@
     "saldo",
     "transactioncode"
   ],
-  "columnUpdatedAt": 1730276577417,
+  "columnUpdatedAt": 1753971898351,
   "columnWidthMap": {
+    "customColumn1": 60,
     "no": 60,
     "transactioncode": 204
   },
@@ -94,6 +96,9 @@
     },
     {
       "key": "primaryColumns.transactioncode.computedValue"
+    },
+    {
+      "key": "primaryColumns.customColumn1.computedValue"
     }
   ],
   "dynamicPropertyPathList": [
@@ -173,6 +178,39 @@
       "label": "barcode",
       "notation": "standard",
       "originalId": "barcode",
+      "sticky": "",
+      "textSize": "0.875rem",
+      "thousandSeparator": true,
+      "validation": {},
+      "verticalAlignment": "CENTER",
+      "width": 150
+    },
+    "customColumn1": {
+      "alias": "num",
+      "allowCellWrapping": false,
+      "allowSameOptionsInNewRow": true,
+      "buttonStyle": "rgb(3, 179, 101)",
+      "columnType": "number",
+      "computedValue": "{{(() => { const tableData = table_savedata.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => (currentIndex+1)) : currentIndex+1 })()}}",
+      "currencyCode": "USD",
+      "decimals": 0,
+      "enableFilter": true,
+      "enableSort": true,
+      "horizontalAlignment": "RIGHT",
+      "id": "customColumn1",
+      "index": 8,
+      "isCellEditable": false,
+      "isCellVisible": true,
+      "isDerived": true,
+      "isDisabled": false,
+      "isDiscardVisible": true,
+      "isEditable": false,
+      "isSaveVisible": true,
+      "isVisible": true,
+      "label": "num",
+      "labelColor": "#FFFFFF",
+      "notation": "standard",
+      "originalId": "customColumn1",
       "sticky": "",
       "textSize": "0.875rem",
       "thousandSeparator": true,
@@ -264,7 +302,7 @@
       "isDiscardVisible": true,
       "isEditable": false,
       "isSaveVisible": true,
-      "isVisible": true,
+      "isVisible": false,
       "label": "no",
       "notation": "standard",
       "originalId": "no",

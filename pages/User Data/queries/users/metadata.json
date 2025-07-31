@@ -26,6 +26,6 @@
     "name": "users",
     "pageId": "User Data",
     "runBehaviour": "ON_PAGE_LOAD",
-    "userSetOnLoad": false
+    "userSetOnLoad": true
   }
 }
