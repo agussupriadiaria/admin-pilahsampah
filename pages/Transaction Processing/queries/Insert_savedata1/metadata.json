@@ -29,7 +29,7 @@
     ],
     "name": "Insert_savedata1",
     "pageId": "Transaction Processing",
-    "runBehaviour": "ON_PAGE_LOAD",
+    "runBehaviour": "MANUAL",
     "userSetOnLoad": true
   }
 }
