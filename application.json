@@ -28,15 +28,15 @@
   "icon": "file",
   "pages": [
     {
-      "id": "Data User",
+      "id": "User Data",
       "isDefault": true
     },
     {
-      "id": "Proses Transaction",
+      "id": "Transaction Processing",
       "isDefault": false
     },
     {
-      "id": "Proses Withdraw",
+      "id": "Withdrawal Processing",
       "isDefault": false
     }
   ],
