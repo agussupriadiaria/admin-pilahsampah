@@ -1,16 +1,16 @@
 {
-  "gitSyncId": "688a556fb2c91c5f7c3a50ed_3e3ae5b4-7c54-4370-8f8e-c2b329d3d461",
-  "id": "Proses Data_Select_savedatabaru1",
+  "gitSyncId": "688a556fb2c91c5f7c3a50ed_d6655cf3-340a-458e-b3b3-e8c1fb7eeeea",
+  "id": "Proses Transaction_Total_record_savedata1",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  savedatabaru\nWHERE\n  transactioncode LIKE '%{{table_savedatabaru.searchText}}%'\nORDER BY\n  {{table_savedatabaru.sortOrder.column || 'no'}} {{table_savedatabaru.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{table_savedatabaru.pageSize}}\nOFFSET\n  {{table_savedatabaru.pageOffset}}",
+      "body": "SELECT COUNT(*) from savedata WHERE transactioncode LIKE '%{{table_savedata.searchText}}%';",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
         {
-          "value": false
+          "value": true
         }
       ],
       "timeoutInMillisecond": 10000
@@ -27,8 +27,8 @@
         "key": "body"
       }
     ],
-    "name": "Select_savedatabaru1",
-    "pageId": "Proses Data",
+    "name": "Total_record_savedata1",
+    "pageId": "Proses Transaction",
     "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }
