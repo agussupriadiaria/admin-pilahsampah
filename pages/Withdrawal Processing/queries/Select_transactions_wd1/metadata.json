@@ -5,7 +5,7 @@
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT\n  *\nFROM\n  transactions_wd\nWHERE\n  transactioncode LIKE '%{{table_transactions_wd.searchText}}%'\nORDER BY\n  {{table_transactions_wd.sortOrder.column || 'no'}} {{table_transactions_wd.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}\nLIMIT\n  {{table_transactions_wd.pageSize}}\nOFFSET\n  {{table_transactions_wd.pageOffset}}",
+      "body": "SELECT\n  *\nFROM\n  transactions_wd\nWHERE\n  transactioncode LIKE '%{{table_transactions_wd.searchText}}%'\nORDER BY\n  {{table_transactions_wd.sortOrder.column || 'no'}} {{table_transactions_wd.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [

@@ -6,7 +6,3 @@ WHERE
   transactioncode LIKE '%{{table_transactions.searchText}}%'
 ORDER BY
   {{table_transactions.sortOrder.column || 'no'}} {{table_transactions.sortOrder.order !== "desc" ? "" : "DESC"}}
-LIMIT
-  {{table_transactions.pageSize}}
-OFFSET
-  {{table_transactions.pageOffset}}
