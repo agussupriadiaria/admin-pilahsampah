@@ -5,7 +5,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 51,
+  "bottomRow": 48,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -139,7 +139,7 @@
   "onPageChange": "{{\n            Select_transactions1.run();\n            Total_record_transactions1.run()\n          }}",
   "onSearchTextChanged": "{{\n            Select_transactions1.run();\n            Total_record_transactions1.run()\n          }}",
   "onSort": "{{\n            Select_transactions1.run();\n            Total_record_transactions1.run()\n          }}",
-  "originalBottomRow": 51,
+  "originalBottomRow": 48,
   "originalTopRow": 10,
   "parentColumnSpace": 17.9375,
   "parentId": "0",
