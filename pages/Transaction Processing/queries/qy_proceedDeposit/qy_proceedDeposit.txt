@@ -1,0 +1,5 @@
+UPDATE transactions
+SET status = 'Success', 
+transactiondate = CURDATE() 
+WHERE item = 'Deposit' 
+AND status = 'Verify';

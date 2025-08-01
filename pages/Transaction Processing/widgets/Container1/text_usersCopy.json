@@ -4,7 +4,7 @@
   "borderColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 6,
+  "bottomRow": 7,
   "disableLink": true,
   "dynamicBindingPathList": [
     {
@@ -41,7 +41,7 @@
   "originalTopRow": 2,
   "overflow": "NONE",
   "parentColumnSpace": 17.9375,
-  "parentId": "rb3d8bt3z9",
+  "parentId": "7n21cq8ruc",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
@@ -54,6 +54,6 @@
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "ieju6z7c40",
+  "widgetId": "w04nvda3uy",
   "widgetName": "text_usersCopy"
 }

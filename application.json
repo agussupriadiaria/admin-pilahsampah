@@ -32,11 +32,11 @@
       "isDefault": true
     },
     {
-      "id": "Transaction Processing",
+      "id": "Transaction Log",
       "isDefault": false
     },
     {
-      "id": "Withdrawal Processing",
+      "id": "Transaction Processing",
       "isDefault": false
     }
   ],

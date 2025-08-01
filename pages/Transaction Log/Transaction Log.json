@@ -1,12 +1,12 @@
 {
-  "gitSyncId": "6461caf0d209002373fbd8c0_64678f4dfa3cc350567e6860",
+  "gitSyncId": "6461caf0d209002373fbd8c0_6464dac92c06a41774105f55",
   "unpublishedPage": {
     "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 1030,
+          "bottomRow": 1320,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +26,7 @@
         }
       }
     ],
-    "name": "Transaction Processing",
-    "slug": "transaction-processing"
+    "name": "Transaction Log",
+    "slug": "transaction-log"
   }
 }
