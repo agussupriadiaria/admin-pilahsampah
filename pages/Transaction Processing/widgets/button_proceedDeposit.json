@@ -25,7 +25,7 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 81,
   "needsErrorInfo": false,
-  "onClick": "{{qy_filterWithdrawal.run().then(() => {\n  showAlert('Success. Please reload page!', 'success');\n}).catch(() => {\n  showAlert('Failed. Check data!', 'error');\n});}}",
+  "onClick": "{{qy_proceedDeposit.run()}}",
   "originalBottomRow": 52,
   "originalTopRow": 48,
   "parentColumnSpace": 17.9375,
