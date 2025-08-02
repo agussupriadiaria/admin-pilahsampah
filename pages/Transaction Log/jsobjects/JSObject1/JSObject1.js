@@ -61,7 +61,8 @@ export default {
 			}
 
 			showAlert("CSV upload complete. Please reload page !", "success");
-			navigate("https://www.google.com", {}, "SELF");
+			navigate(appsmith.URL.fullPath, {}, "SELF");
+			// navigate("https://www.google.com", {}, "SELF");
 
 		} catch (e) {
 			showAlert("Failed to read CSV file: " + e.message, "error");
