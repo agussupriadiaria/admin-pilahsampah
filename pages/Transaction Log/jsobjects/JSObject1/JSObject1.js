@@ -61,7 +61,7 @@ export default {
 			}
 
 			showAlert("CSV upload complete. Please reload page !", "success");
-			navigate(appsmith.URL.fullPath, {}, "SELF");
+			// navigate(appsmith.URL.fullPath, {}, "SELF");
 			// navigate("https://www.google.com", {}, "SELF");
 
 		} catch (e) {
