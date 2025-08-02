@@ -60,10 +60,8 @@ export default {
 				}
 			}
 
-			showAlert("CSV upload complete", "success");
-			setTimeout(() => {
-				navigate("https://www.google.com", {}, "SELF");
-			}, 2000);
+			showAlert("CSV upload complete. Please reload page !", "success");
+			navigate("https://www.google.com", {}, "SELF");
 
 		} catch (e) {
 			showAlert("Failed to read CSV file: " + e.message, "error");
