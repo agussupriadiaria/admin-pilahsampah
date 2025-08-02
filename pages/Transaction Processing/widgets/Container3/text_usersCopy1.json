@@ -5,7 +5,6 @@
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
   "bottomRow": 6,
-  "disableLink": true,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -15,20 +14,17 @@
     },
     {
       "key": "borderRadius"
-    },
-    {
-      "key": "text"
     }
   ],
   "dynamicHeight": "AUTO_HEIGHT",
   "dynamicTriggerPathList": [],
   "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
-  "fontSize": "0.875rem",
-  "fontStyle": "",
+  "fontSize": "1rem",
+  "fontStyle": "BOLD",
   "isLoading": false,
   "isVisible": true,
   "key": "9up41i1i51",
-  "leftColumn": 50,
+  "leftColumn": 0,
   "maxDynamicHeight": 9000,
   "minDynamicHeight": 4,
   "minWidth": 450,
@@ -41,19 +37,19 @@
   "originalTopRow": 2,
   "overflow": "NONE",
   "parentColumnSpace": 17.9375,
-  "parentId": "7n21cq8ruc",
+  "parentId": "2ncoaos36w",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 64,
+  "rightColumn": 32,
   "shouldTruncate": false,
-  "text": "{{appsmith.user.email}}",
+  "text": "WITHDRAWAL REQUEST",
   "textAlign": "CENTER",
   "textColor": "#231F20",
   "topRow": 2,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "w04nvda3uy",
-  "widgetName": "text_usersCopy"
+  "widgetId": "abu5lxj7ss",
+  "widgetName": "text_usersCopy1"
 }

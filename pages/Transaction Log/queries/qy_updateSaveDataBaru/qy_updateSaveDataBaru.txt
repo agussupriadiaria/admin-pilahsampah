@@ -11,3 +11,5 @@ AND sd.transactioncode NOT IN (
 	SELECT transactioncode
 	FROM savedatabaru
 );
+
+TRUNCATE savedata;
