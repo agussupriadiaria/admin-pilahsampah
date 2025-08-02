@@ -1,5 +1,5 @@
--- 1. Pastikan tabel transactions_valid sudah ada (amount akan diisi dari saldo)
-CREATE TABLE IF NOT EXISTS transactions_valid (
+-- 1. Pastikan tabel transactions_success sudah ada (amount akan diisi dari saldo)
+CREATE TABLE IF NOT EXISTS transactions_success (
 	no INT(11) NOT NULL,
 	username VARCHAR(50) NOT NULL,
 	transactioncode VARCHAR(16) NOT NULL,
@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS transactions_valid (
 );
 
 -- 2. Pindahkan data yang cocok, amount diisi dari s.saldo (savedatabaru)
-INSERT INTO transactions_valid (no, username, transactioncode, item, amount, inputdate, transactiondate, status)
+INSERT INTO transactions_success (no, username, transactioncode, item, amount, inputdate, transactiondate, status)
 SELECT t.no, t.username, t.transactioncode, t.item, s.saldo, t.inputdate, t.transactiondate, 'Success'
 FROM transactions t
 JOIN savedatabaru s

@@ -4,7 +4,7 @@
   "borderColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 66,
+  "bottomRow": 113,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,8 +33,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 66,
-  "originalTopRow": 62,
+  "originalBottomRow": 113,
+  "originalTopRow": 109,
   "overflow": "NONE",
   "parentColumnSpace": 17.9375,
   "parentId": "0",
@@ -43,13 +43,13 @@
   "responsiveBehavior": "fill",
   "rightColumn": 10,
   "shouldTruncate": false,
-  "text": "Deposit Success",
+  "text": "Deposit Invalid",
   "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 62,
+  "topRow": 109,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "w6rpwn5i8v",
-  "widgetName": "text_users2"
+  "widgetId": "duncx3zmol",
+  "widgetName": "text_users2Copy"
 }
