@@ -4,7 +4,7 @@
   "borderColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 6,
+  "bottomRow": 119,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,23 +33,23 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 6,
-  "originalTopRow": 2,
+  "originalBottomRow": 119,
+  "originalTopRow": 115,
   "overflow": "NONE",
   "parentColumnSpace": 17.9375,
-  "parentId": "s7dzc4ugr2",
+  "parentId": "0",
   "parentRowSpace": 10,
   "renderMode": "CANVAS",
   "responsiveBehavior": "fill",
-  "rightColumn": 32,
+  "rightColumn": 11,
   "shouldTruncate": false,
-  "text": "DEPOSIT SUCCESS",
-  "textAlign": "CENTER",
+  "text": "WITHDRAWAL REQUEST",
+  "textAlign": "LEFT",
   "textColor": "#231F20",
-  "topRow": 2,
+  "topRow": 115,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,
-  "widgetId": "w6rpwn5i8v",
-  "widgetName": "text_users2"
+  "widgetId": "abu5lxj7ss",
+  "widgetName": "text_usersCopy1"
 }
