@@ -142,7 +142,7 @@
   "onAddNewRowSave": "{{Insert_savedata1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_savedata1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
   "onPageChange": "{{\n            Select_savedata1.run();\n            Total_record_savedata1.run()\n          }}",
   "onSearchTextChanged": "{{\n            Select_savedata1.run();\n            Total_record_savedata1.run()\n          }}",
-  "onSort": "{{\n            Select_savedata1.run();\n            Total_record_savedata1.run()\n          }}",
+  "onSort": "",
   "originalBottomRow": 69,
   "originalTopRow": 10,
   "parentColumnSpace": 14.8125,
