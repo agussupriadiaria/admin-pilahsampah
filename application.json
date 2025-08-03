@@ -36,7 +36,11 @@
       "isDefault": false
     },
     {
-      "id": "Transaction Processing",
+      "id": "Processing Deposit",
+      "isDefault": false
+    },
+    {
+      "id": "Processing Withdrawal",
       "isDefault": false
     }
   ],
