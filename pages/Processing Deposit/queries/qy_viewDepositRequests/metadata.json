@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "688a556fb2c91c5f7c3a50ed_daa87ff4-bdce-40b8-94dc-d776c1f2eec6",
-  "id": "Processing Deposit_Total_record_transactions_wd1",
+  "gitSyncId": "688a556fb2c91c5f7c3a50ed_63e77c8b-5b03-481b-a8e2-7590cf1c8b47",
+  "id": "Processing Deposit_qy_viewDepositRequests",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT COUNT(*) from transactions_wd WHERE transactioncode LIKE '%{{table_transactions_wd.searchText}}%';",
+      "body": "SELECT\n  *\nFROM\n  transactions\nWHERE\n  transactioncode LIKE '%{{table_transactions.searchText}}%'\nORDER BY\n  {{table_transactions.sortOrder.column || 'no'}} {{table_transactions.sortOrder.order !== \"desc\" ? \"\" : \"DESC\"}}",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -27,7 +27,7 @@
         "key": "body"
       }
     ],
-    "name": "Total_record_transactions_wd1",
+    "name": "qy_viewDepositRequests",
     "pageId": "Processing Deposit",
     "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true

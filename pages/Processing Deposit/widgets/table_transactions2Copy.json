@@ -69,9 +69,6 @@
       "key": "tableData"
     },
     {
-      "key": "totalRecordsCount"
-    },
-    {
       "key": "primaryColumns.no.computedValue"
     },
     {
@@ -135,8 +132,8 @@
   "mobileRightColumn": 10,
   "mobileTopRow": 8,
   "needsErrorInfo": false,
-  "onAddNewRowSave": "{{Insert_transactions1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_transactions1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
-  "onPageChange": "{{\n            Select_transactions1.run();\n            Total_record_transactions1.run()\n          }}",
+  "onAddNewRowSave": "{{Insert_transactions1.run(() => {\n            showAlert(\"Successfully created!\");\n            qy_viewDepositRequests.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
+  "onPageChange": "",
   "onSearchTextChanged": "",
   "onSort": "",
   "originalBottomRow": 153,
@@ -405,10 +402,10 @@
   "searchKey": "",
   "serverSidePaginationEnabled": false,
   "showInlineEditingOptionDropdown": true,
-  "tableData": "{{Select_transactions1.data}}",
+  "tableData": "{{qy_viewDepositInvalid.data}}",
   "textSize": "0.875rem",
   "topRow": 113,
-  "totalRecordsCount": "{{Total_record_transactions1.data[0].count}}",
+  "totalRecordsCount": "",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",

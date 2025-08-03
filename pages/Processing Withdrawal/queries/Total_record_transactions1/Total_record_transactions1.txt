@@ -1,1 +1,0 @@
-SELECT COUNT(*) from transactions WHERE transactioncode LIKE '%{{table_transactions.searchText}}%';

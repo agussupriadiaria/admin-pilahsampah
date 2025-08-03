@@ -69,9 +69,6 @@
       "key": "tableData"
     },
     {
-      "key": "totalRecordsCount"
-    },
-    {
       "key": "primaryColumns.no.computedValue"
     },
     {
@@ -139,7 +136,7 @@
   "mobileTopRow": 50,
   "needsErrorInfo": false,
   "onAddNewRowSave": "{{Insert_transactions_wd1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_transactions_wd1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
-  "onPageChange": "{{Total_record_transactions_wd1.run();}}",
+  "onPageChange": "",
   "onSearchTextChanged": "",
   "onSort": "",
   "originalBottomRow": 62,
@@ -440,7 +437,7 @@
   "tableData": "{{Select_transactions_wd1.data}}",
   "textSize": "0.875rem",
   "topRow": 21,
-  "totalRecordsCount": "{{Total_record_transactions_wd1.data[0].count}}",
+  "totalRecordsCount": "",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
