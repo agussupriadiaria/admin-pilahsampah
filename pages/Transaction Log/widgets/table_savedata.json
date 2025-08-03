@@ -70,9 +70,6 @@
       "key": "tableData"
     },
     {
-      "key": "totalRecordsCount"
-    },
-    {
       "key": "primaryColumns.no.computedValue"
     },
     {
@@ -140,8 +137,8 @@
   "mobileTopRow": 3,
   "needsErrorInfo": false,
   "onAddNewRowSave": "{{Insert_savedata1.run(() => {\n            showAlert(\"Successfully created!\");\n            Select_savedata1.run()\n          }, () => {\n            showAlert(\"Unable to create!\");\n          })}}",
-  "onPageChange": "{{\n            Select_savedata1.run();\n            Total_record_savedata1.run()\n          }}",
-  "onSearchTextChanged": "{{\n            Select_savedata1.run();\n            Total_record_savedata1.run()\n          }}",
+  "onPageChange": "",
+  "onSearchTextChanged": "",
   "onSort": "",
   "originalBottomRow": 95,
   "originalTopRow": 36,
@@ -411,7 +408,7 @@
   "tableData": "{{Select_savedata1.data}}",
   "textSize": "0.875rem",
   "topRow": 36,
-  "totalRecordsCount": "{{Total_record_savedata1.data[0].count}}",
+  "totalRecordsCount": "",
   "type": "TABLE_WIDGET_V2",
   "version": 2,
   "verticalAlignment": "CENTER",
