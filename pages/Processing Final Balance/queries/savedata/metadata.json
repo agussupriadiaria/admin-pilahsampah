@@ -1,11 +1,11 @@
 {
-  "gitSyncId": "671f756ef8df644d71cb6387_fc26b7c6-753a-4d22-a2da-5efe24fff94b",
-  "id": "User Data_savedatabaru",
+  "gitSyncId": "671f756ef8df644d71cb6387_2bce0d05-e170-4f7b-90ac-2a56685bb212",
+  "id": "Processing Final Balance_savedata",
   "pluginId": "mysql-plugin",
   "pluginType": "DB",
   "unpublishedAction": {
     "actionConfiguration": {
-      "body": "SELECT * FROM savedatabaru",
+      "body": "SELECT * FROM savedata",
       "encodeParamsToggle": true,
       "paginationType": "NONE",
       "pluginSpecifiedTemplates": [
@@ -23,8 +23,8 @@
       "pluginId": "mysql-plugin"
     },
     "dynamicBindingPathList": [],
-    "name": "savedatabaru",
-    "pageId": "User Data",
+    "name": "savedata",
+    "pageId": "Processing Final Balance",
     "runBehaviour": "ON_PAGE_LOAD",
     "userSetOnLoad": true
   }

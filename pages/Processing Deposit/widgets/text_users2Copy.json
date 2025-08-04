@@ -4,7 +4,7 @@
   "borderColor": "",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "",
-  "bottomRow": 113,
+  "bottomRow": 116,
   "dynamicBindingPathList": [
     {
       "key": "truncateButtonColor"
@@ -33,8 +33,8 @@
   "mobileRightColumn": 16,
   "mobileTopRow": 0,
   "needsErrorInfo": false,
-  "originalBottomRow": 113,
-  "originalTopRow": 109,
+  "originalBottomRow": 116,
+  "originalTopRow": 112,
   "overflow": "NONE",
   "parentColumnSpace": 17.9375,
   "parentId": "0",
@@ -46,7 +46,7 @@
   "text": "Deposit Invalid",
   "textAlign": "LEFT",
   "textColor": "#ef4444",
-  "topRow": 109,
+  "topRow": 112,
   "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
   "type": "TEXT_WIDGET",
   "version": 1,

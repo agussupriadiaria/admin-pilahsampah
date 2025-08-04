@@ -28,12 +28,8 @@
   "icon": "file",
   "pages": [
     {
-      "id": "User Data",
-      "isDefault": true
-    },
-    {
       "id": "Transaction Log",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Processing Deposit",
@@ -41,6 +37,10 @@
     },
     {
       "id": "Processing Withdrawal",
+      "isDefault": false
+    },
+    {
+      "id": "Processing Final Balance",
       "isDefault": false
     }
   ],
