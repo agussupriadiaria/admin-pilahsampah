@@ -25,7 +25,7 @@
   "mobileRightColumn": 41,
   "mobileTopRow": 193,
   "needsErrorInfo": false,
-  "onClick": "{{qy_updateSaveDataBaru.run().then(() => {\n  showAlert('Success. Please reload page!', 'success');\n}).catch(() => {\n  showAlert('Failed. Check data!', 'error');\n});}}",
+  "onClick": "{{qy_updateSaveDataBaru.run().then(() => {\n  showAlert('Success. Please reload page!', 'success');\n}).catch(() => {\n  showAlert('Failed. Please check data!', 'error');\n});}}",
   "originalBottomRow": 99,
   "originalTopRow": 95,
   "parentColumnSpace": 14.8125,
