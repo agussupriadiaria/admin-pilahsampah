@@ -4,7 +4,7 @@
   "borderColor": "#E0DEDE",
   "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
   "borderWidth": "1",
-  "bottomRow": 93,
+  "bottomRow": 96,
   "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
   "canFreezeColumn": true,
   "childStylesheet": {
@@ -38,13 +38,11 @@
     "address",
     "email",
     "profilepicture",
-    "accname",
-    "accnumber",
     "balance",
     "password",
     "createdate"
   ],
-  "columnUpdatedAt": 1753975233417,
+  "columnUpdatedAt": 1754791459834,
   "columnWidthMap": {
     "customColumn1": 62,
     "no": 60
@@ -93,12 +91,6 @@
       "key": "primaryColumns.profilepicture.computedValue"
     },
     {
-      "key": "primaryColumns.accname.computedValue"
-    },
-    {
-      "key": "primaryColumns.accnumber.computedValue"
-    },
-    {
       "key": "primaryColumns.balance.computedValue"
     },
     {
@@ -140,68 +132,6 @@
   "parentId": "0",
   "parentRowSpace": 10,
   "primaryColumns": {
-    "accname": {
-      "alias": "accname",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{(() => { const tableData = table_users.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"accname\"])) :  currentRow[\"accname\"] })()}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "accname",
-      "index": 7,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "accname",
-      "notation": "standard",
-      "originalId": "accname",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
-    "accnumber": {
-      "alias": "accnumber",
-      "allowCellWrapping": false,
-      "allowSameOptionsInNewRow": true,
-      "columnType": "text",
-      "computedValue": "{{(() => { const tableData = table_users.processedTableData || []; return tableData.length > 0 ? tableData.map((currentRow, currentIndex) => ( currentRow[\"accnumber\"])) :  currentRow[\"accnumber\"] })()}}",
-      "currencyCode": "USD",
-      "decimals": 0,
-      "enableFilter": true,
-      "enableSort": true,
-      "horizontalAlignment": "LEFT",
-      "id": "accnumber",
-      "index": 8,
-      "isCellEditable": false,
-      "isCellVisible": true,
-      "isDerived": false,
-      "isDisabled": false,
-      "isDiscardVisible": true,
-      "isEditable": false,
-      "isSaveVisible": true,
-      "isVisible": true,
-      "label": "accnumber",
-      "notation": "standard",
-      "originalId": "accnumber",
-      "sticky": "",
-      "textSize": "0.875rem",
-      "thousandSeparator": true,
-      "validation": {},
-      "verticalAlignment": "CENTER",
-      "width": 150
-    },
     "address": {
       "alias": "address",
       "allowCellWrapping": false,
@@ -521,7 +451,7 @@
   "searchKey": "",
   "tableData": "{{users.data}}",
   "textSize": "0.875rem",
-  "topRow": 21,
+  "topRow": 24,
   "totalRecordsCount": 0,
   "type": "TABLE_WIDGET_V2",
   "version": 2,

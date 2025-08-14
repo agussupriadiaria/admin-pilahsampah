@@ -1,7 +1,7 @@
 {
   "animateLoading": true,
   "borderRadius": "1.5rem",
-  "bottomRow": 97,
+  "bottomRow": 100,
   "boxShadow": "none",
   "buttonColor": "#ef4444",
   "buttonVariant": "PRIMARY",
@@ -37,7 +37,7 @@
   "responsiveBehavior": "hug",
   "rightColumn": 64,
   "text": "Update saldo !",
-  "topRow": 93,
+  "topRow": 96,
   "type": "BUTTON_WIDGET",
   "version": 1,
   "widgetId": "l8ql4ig93d",
